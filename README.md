@@ -1,4 +1,4 @@
-# Book Management Application
+# Documents Management Application
 
 This repository hosts a full-stack application facilitating document management. The backend, built with Spring Boot and integrated with MinIO for object storage, offers RESTful services. The Angular-based frontend provides a smooth user interface.
 
