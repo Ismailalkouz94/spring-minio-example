@@ -32,3 +32,8 @@ This repository hosts a full-stack application facilitating document management.
 1. Make sure Docker is up and running.
 2. Use the `docker-compose.yml` file at the root of the project to start MinIO.
 3. The MinIO dashboard is available at `http://localhost:9001`.
+
+### Curl test
+```curl --location 'http://localhost:8080/documents' \
+--form 'document="{\"title\":\"test\", \"description\":\"test\"}";type=application/json' \
+--form 'files=@"path-to-your-file"'
